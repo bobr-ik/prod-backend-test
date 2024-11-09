@@ -15,7 +15,7 @@ services:
     healthcheck:
       test: [ "CMD-SHELL", "mysqladmin ping -u bobr2 -p qwerty123" ]
       interval: 3s
-      timeout: 100000000s
+      timeout: 1s
       retries: 10
 
 
