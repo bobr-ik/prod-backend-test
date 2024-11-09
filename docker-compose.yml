@@ -13,9 +13,9 @@ services:
     networks:
       - webnet
     healthcheck:
-      test: [ "CMD-SHELL", "mysqladmin ping -u bobr2 -p'qwerty123'" ]
+      test: [ "CMD-SHELL", "mysqladmin ping -u bobr2 -p qwerty123" ]
       interval: 3s
-      timeout: 1s
+      timeout: 100000000s
       retries: 10
 
 
