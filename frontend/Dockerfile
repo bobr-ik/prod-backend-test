@@ -7,4 +7,4 @@ COPY . /usr/share/nginx/html
 
 
 # Открываем стандартный порт Nginx
-EXPOSE 81
+EXPOSE 80
