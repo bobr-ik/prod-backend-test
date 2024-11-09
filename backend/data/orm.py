@@ -158,47 +158,47 @@ class SyncORM:
             "f_event_date": datetime(2024, 11, 17, 12, 0, 0, tzinfo=timezone.utc)
         }
         ]
-            data = [
-                {
-                    'f_trip_name': 'Trip 1'
-                },
-                {
-                    'f_trip_name': 'Trip 2'
-                },
-                {
-                    'f_trip_name': 'Trip 3'
-                },
-                {
-                    'f_trip_name': 'Trip 4'
-                }
-            ]
-            insert_data3 = insert(TripsORM).values(data)
+            # data = [
+            #     {
+            #         'f_trip_name': 'Trip 1'
+            #     },
+            #     {
+            #         'f_trip_name': 'Trip 2'
+            #     },
+            #     {
+            #         'f_trip_name': 'Trip 3'
+            #     },
+            #     {
+            #         'f_trip_name': 'Trip 4'
+            #     }
+            # ]
+            # insert_data3 = insert(TripsORM).values(data)
 
-            data = [
-                {
-                    'f_trip_id': 1,
-                    'f_debt_amount': 100,
-                    'f_tg_tag_lender': '@ivan',
-                    'f_tg_tag_debtor': '@petr',
-                    'f_event_name': 'Event 1',
-                },
-                {
-                    'f_trip_id': 2,
-                    'f_debt_amount': 100,
-                    'f_tg_tag_lender': '@ivan',
-                    'f_tg_tag_debtor': '@petr',
-                    'f_event_name': 'Event 1',
-                },
-                {
-                    'f_trip_id': 3,
-                    'f_debt_amount': 100,
-                    'f_tg_tag_lender': '@ivan',
-                    'f_tg_tag_debtor': '@petr',
-                    'f_event_name': 'Event 1',
-                }
-            ]
+            # data = [
+            #     {
+            #         'f_trip_id': 1,
+            #         'f_debt_amount': 100,
+            #         'f_tg_tag_lender': '@ivan',
+            #         'f_tg_tag_debtor': '@petr',
+            #         'f_event_name': 'Event 1',
+            #     },
+            #     {
+            #         'f_trip_id': 2,
+            #         'f_debt_amount': 100,
+            #         'f_tg_tag_lender': '@ivan',
+            #         'f_tg_tag_debtor': '@petr',
+            #         'f_event_name': 'Event 1',
+            #     },
+            #     {
+            #         'f_trip_id': 3,
+            #         'f_debt_amount': 100,
+            #         'f_tg_tag_lender': '@ivan',
+            #         'f_tg_tag_debtor': '@petr',
+            #         'f_event_name': 'Event 1',
+            #     }
+            # ]
 
-            insert_data_4 = insert(TripDebtsORM).values(data)
+            # insert_data_4 = insert(TripDebtsORM).values(data)
             # session.execute(insert_data3)
             # session.execute(insert_data_4)
             insert_data2 = insert(TripDebtsORM).values(trip_debts_data)
