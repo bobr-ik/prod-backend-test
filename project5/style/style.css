@@ -1,0 +1,54 @@
+body{
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-pic{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 100vw 80vh;
+    background-image: url(../media/img/gradient-spheres-background_52683-76367\ \(1\).avif);
+}
+
+.flex-cont{
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.flex-item{
+    border: 2px solid rgb(197, 130, 249);
+    width: 20vw;
+    height: 25vw;
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2{
+    margin: 20px;
+    text-align: center;
+}
+p{
+    margin:20px;
+    text-align: center;
+}
+button{
+    width: 60%;
+    height: 30px;
+    margin: 50px;
+    border: none;
+    background-color: rgb(197, 130, 249);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
