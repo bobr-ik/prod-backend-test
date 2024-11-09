@@ -23,7 +23,7 @@ class TripsORM(Base):
     __tablename__ = "t_trips"
     f_id: Mapped[int] = mapped_column(primary_key=True)
     f_trip_name: Mapped[str] = mapped_column(String(50))
-    f_start_date: Mapped[DateTime] = mapped_column(DateTime[datetime.now(timezone.utc)])
+    f_start_date: Mapped[datetime] = mapped_column(default=datetime.now(timezone.utc))
     f_end_date: Mapped[Optional[datetime]]
     f_is_ended: Mapped[bool] = mapped_column(default=False)
 
