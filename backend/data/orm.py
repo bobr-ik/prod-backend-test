@@ -47,23 +47,23 @@ class SyncORM:
                 "f_debt_amount": 300
             },
             {
-                "f_tg_tag_debtor": "@oleg",
-                "f_tg_tag_lender": "@ivan",
+                "f_tg_tag_debtor": "@ivan",
+                "f_tg_tag_lender": "@sfsfssfsfsfs",
                 "f_debt_amount": 25
             },
             {
-                "f_tg_tag_debtor": "@oleggga",
-                "f_tg_tag_lender": "@ivan",
+                "f_tg_tag_debtor": "@ivan",
+                "f_tg_tag_lender": "@sfsfdsfs",
                 "f_debt_amount": 25
             },
             {
-                "f_tg_tag_debtor": "@olegi",
-                "f_tg_tag_lender": "@ivan",
+                "f_tg_tag_debtor": "@ivan",
+                "f_tg_tag_lender": "@affafaf",
                 "f_debt_amount": 25
             },
             {
-                "f_tg_tag_debtor": "@olga",
-                "f_tg_tag_lender": "@ivan",
+                "f_tg_tag_debtor": "@ivan",
+                "f_tg_tag_lender": "@svs",
                 "f_debt_amount": 25
             },
             {
