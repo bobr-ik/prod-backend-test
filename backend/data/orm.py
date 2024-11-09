@@ -199,8 +199,8 @@ class SyncORM:
             ]
 
             insert_data_4 = insert(TripDebtsORM).values(data)
-            session.execute(insert_data3)
-            session.execute(insert_data_4)
+            # session.execute(insert_data3)
+            # session.execute(insert_data_4)
             insert_data2 = insert(TripDebtsORM).values(trip_debts_data)
             session.execute(insert_data)
             session.execute(insert_data1)
